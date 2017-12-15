@@ -1,0 +1,105 @@
+html {
+  font-size: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: #eaeaea; }
+
+.home-page-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  .home-page-container .rule-container {
+    width: 50%;
+    background: #fff;
+    margin: 15px auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.24);
+    overflow: hidden; }
+    @media screen and (max-width: 480px) {
+      .home-page-container .rule-container {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none; } }
+    .home-page-container .rule-container .header {
+      display: flex;
+      height: 50px;
+      background: #224732;
+      color: #fff;
+      cursor: pointer;
+      -moz-transition: 0.3s all ease;
+      -o-transition: 0.3s all ease;
+      -webkit-transition: 0.3s all ease;
+      transition: 0.3s all ease; }
+      .home-page-container .rule-container .header:hover {
+        background: #2a583e; }
+      .home-page-container .rule-container .header .header-id {
+        height: inherit;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        background: #88A34F; }
+      .home-page-container .rule-container .header .header-title {
+        height: inherit;
+        display: flex;
+        flex: 10;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase; }
+    .home-page-container .rule-container .content {
+      width: 80%;
+      margin: 0 auto;
+      max-height: 300px;
+      -moz-transition: 0.3s all ease;
+      -o-transition: 0.3s all ease;
+      -webkit-transition: 0.3s all ease;
+      transition: 0.3s all ease; }
+      .home-page-container .rule-container .content .content-body {
+        margin: 10px;
+        padding-top: 10px;
+        display: flex;
+        flex-flow: column; }
+        .home-page-container .rule-container .content .content-body span {
+          font-size: 0.8rem;
+          font-weight: 600; }
+        .home-page-container .rule-container .content .content-body p {
+          background: #f3f3f3;
+          padding: 10px; }
+      .home-page-container .rule-container .content .content-validation {
+        display: flex;
+        margin: 10px; }
+        .home-page-container .rule-container .content .content-validation .content-valid {
+          padding-right: 10px; }
+          .home-page-container .rule-container .content .content-validation .content-valid p {
+            background: #88A34F; }
+        .home-page-container .rule-container .content .content-validation .content-invalid {
+          padding-left: 10px; }
+          .home-page-container .rule-container .content .content-validation .content-invalid p {
+            background: #ec544e; }
+        .home-page-container .rule-container .content .content-validation .content-valid, .home-page-container .rule-container .content .content-validation .content-invalid {
+          display: flex;
+          flex-flow: column;
+          flex: 1; }
+          .home-page-container .rule-container .content .content-validation .content-valid span, .home-page-container .rule-container .content .content-validation .content-invalid span {
+            font-size: 0.8rem;
+            font-weight: 600; }
+          .home-page-container .rule-container .content .content-validation .content-valid p, .home-page-container .rule-container .content .content-validation .content-invalid p {
+            padding: 10px;
+            text-align: center;
+            color: #fff; }
+      .home-page-container .rule-container .content.hide {
+        max-height: 0;
+        margin-top: -20px; }
+    .home-page-container .rule-container.red .header {
+      background: #BF352F; }
+      .home-page-container .rule-container.red .header:hover {
+        background: #ce3f39; }
+    .home-page-container .rule-container.red .header-id {
+      background: #ec544e; }
+
+/*# sourceMappingURL=home-page.css.map */
